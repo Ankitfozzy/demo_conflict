@@ -1,11 +1,15 @@
-let N=13
-let count=0
-for(let i=1;i<=N;i++){
-  if(N%i==0){
-    count++;
-  }
-}if(count==2){
-  console.log("yes");
-}else{
-  console.log("No");
+
+let count=0;
+
+let N = 13;
+
+for(let i=0;i<N;i++){
+
+	if(N%i==0)
+count++;
 }
+
+if(count==2)
+console.log("prime");
+else
+console.log("not prime");
