@@ -1,10 +1,14 @@
-let flag = true;
+let count=0;
+
 let N = 13;
+
 for(let i=0;i<N;i++){
-if(N%i==0){
-console.log("No");
+
+	if(N%i==0)
+count++;
 }
-else{
-console.log("Yes");
-}
-}
+
+if(count==2)
+console.log("prime");
+else
+console.log("not prime");
